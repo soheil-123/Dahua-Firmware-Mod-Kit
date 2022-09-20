@@ -3,11 +3,11 @@ from .config import *
 DAHUA_FILES = OrderedDict([
 	("Install", {
 		"required": True,
-		"type": DAHUA_TYPE.Plain
+		"type": dAHUA_TYPE.Plain
 	}),
 	("kernel.img", {
 		"required": True,
-		"type": DAHUA_TYPE.Plain,
+		"type": dAHUA_TYPE.Plain,
 		"size": 0x00180000
 	}),
 	("dhboot-min.bin.img", {
